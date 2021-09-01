@@ -7,4 +7,6 @@ when git add, changes are added to staging index
 From staging index, commit changes to the repository
 
 This is important because after making 10 changes, 
-I can selectively choose 5 changes to actually commit 
+I can selectively choose 5 changes to actually commit
+
+git checkout: From the repository -> Working direcotry
