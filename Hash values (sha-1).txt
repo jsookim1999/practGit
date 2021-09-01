@@ -1,0 +1,9 @@
+Hash Values (SHA-1)
+* Git generates a checksum for each change set
+* Checksum algorithms convert data into a simple number
+* Same data alwyas equals same checksum
+* Data integrity is fundamental
+* Changing data would change checksum
+* Git uses SHA-1 hash algorithm to create checksums
+* 40-character hex string
+
