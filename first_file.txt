@@ -1,1 +1,8 @@
-My first file
+git add . 
+    - this adds all the changes made in the respo
+
+git commit -m "message"
+    - this commits added changes with the message
+
+git log
+    - this allows you to view the pas commits made
