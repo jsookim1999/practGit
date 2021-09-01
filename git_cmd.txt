@@ -6,3 +6,20 @@ git commit -m "message"
 
 git log
     - this allows you to view the pas commits made
+
+git help log
+    - more about the log commands
+
+git log -n 5
+    - shows most recent 5 commits
+
+git log --since=2019-01-01
+    - show all commits happened since 2019-01-01
+
+git log --until=2021-01-01
+    - show all commits happened until 2021-01-01
+
+git log --author="NAME"
+    - show all commits associated with the author name
+
+git log --grep="Init"
