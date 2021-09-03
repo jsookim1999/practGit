@@ -10,3 +10,6 @@ This is important because after making 10 changes,
 I can selectively choose 5 changes to actually commit
 
 git checkout: From the repository -> Working direcotry
+
+Git does not use small tracking files throughout a repository. Everything is contained
+within the .git directory in the top-level directory of the repository
