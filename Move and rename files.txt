@@ -1,0 +1,9 @@
+Move and Rename files
+
+If you manually rename the file on the finder, git will stage this as 
+two separate events (delete and add)
+
+Moveing and Renaming the file is the same thing (just changing the path)
+
+cmd:
+    git mv fromthisname tothisname
