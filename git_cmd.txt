@@ -1,6 +1,9 @@
 git add . 
     - this adds all the changes made in the respo
 
+git add my_file.txt
+    - stage my_file.txt to the staging index
+
 git commit -m "message"
     - this commits added changes with the message
 
