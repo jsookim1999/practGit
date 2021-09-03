@@ -27,3 +27,7 @@ git log --author="NAME"
 
 git log --grep="Init"
     - show all commits that matches this REGEX
+
+git diff
+    - view changes with diff
+    
