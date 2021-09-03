@@ -22,6 +22,10 @@ git log --since=2019-01-01
 git log --until=2021-01-01
     - show all commits happened until 2021-01-01
 
+git log --until=2020-09-10 -n 2
+    -shows the last two commits that happened before September 10, 2020
+    - "-n 2" limits to the two most recent
+
 git log --author="NAME"
     - show all commits associated with the author name
 
@@ -30,4 +34,3 @@ git log --grep="Init"
 
 git diff
     - view changes with diff
-    
