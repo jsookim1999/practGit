@@ -1,0 +1,12 @@
+Head (where is left off for next record)
+- Pointer to tip of current branch in repository
+- Last state of repository, what was last checked out
+- Points to parent of next commit where writing commits takes place
+
+Master is a default branch
+git will keep track of heac pointer
+
+to see HEAD:
+    cat .git/HEAD
+    cat .git/refs/heads/master 
+this retunrs the SHA value that is the last commit
