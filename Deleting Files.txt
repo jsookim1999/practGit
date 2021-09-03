@@ -1,0 +1,9 @@
+DELETING FILES
+
+There are two ways to delte files
+
+1. delete on finder (drag into trash/other directory)
+2. git rm <file to delete>
+    using Unix rm cmd
+    gits automatcially adds this stage to the stagin directory
+    only need to commit after this
