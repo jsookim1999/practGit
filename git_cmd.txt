@@ -41,3 +41,11 @@ git diff --staged
 git diff --cached
     - does the same thing as the one above (git diff --staged)
 
+git checkout -- <filename>
+    - dischard changes in the working directory
+    - it will checkout the file and restore the unwanted changes
+    -- "-- " will checkout the file into the current branch, not creating a new one
+
+git reset HEAD <filename>
+    - unstages the change in the stage
+
