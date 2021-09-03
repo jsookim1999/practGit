@@ -34,3 +34,10 @@ git log --grep="Init"
 
 git diff
     - view changes with diff
+
+git diff --staged
+    - only see changes that are in staging area
+
+git diff --cached
+    - does the same thing as the one above (git diff --staged)
+
