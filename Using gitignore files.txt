@@ -9,3 +9,12 @@ Rules for ignoring files
     ex. assets/videos/
 - Comments
 - Black lines are skipped
+
+What to ignore:
+- compliled source compliled
+- packages and compressed files
+- logs and databases
+- operating system generated files
+- user-uploaded assets (images, PDF, videos)
+
+
