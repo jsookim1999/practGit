@@ -1,0 +1,11 @@
+Use .gitignore Files
+* project/.gitignore
+* List of rules to determine which files to ignore (such as temporary file that does not need tracking)
+
+Rules for ignoring files
+- Pattern matching (basic regular expressions)
+    ex. logs/*.txt // ignore all txt files in logs
+- Ignore all files in a directory with a trailing slash
+    ex. assets/videos/
+- Comments
+- Black lines are skipped
