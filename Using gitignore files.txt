@@ -33,3 +33,7 @@ Track Empty Directories:
 - Tracks the directories it takes to get to files
 - Ignores directories with NO files
 - Solution: add a 'dot' file such as .gitkeep
+- Or: touch temp/.gitkeep
+    - that touch creates the file if it doesn't exist
+    - if it exists, just updates the last modified time
+
