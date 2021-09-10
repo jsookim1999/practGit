@@ -1,0 +1,10 @@
+Tree-ish
+- A directory containing files and other directories (which Git calls "trees") or any identifier which references a tree
+- A commit is considered tree-ish because it referes to a tree at the point when a commit has been applied
+
+Ancestry
+- HEAD^ (get the parent of the HEAD commit)
+    HEAD^^ is grandparent
+- master^ (what is the parent of the master commit)
+- HEAD~1, HEAD~x (go x commits before)
+- git show HEAD^ (HEAD's parent)

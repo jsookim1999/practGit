@@ -49,3 +49,9 @@ git checkout -- <filename>
 git reset HEAD <filename>
     - unstages the change in the stage
 
+git show HEAD
+    - shows where the head pointer is refering to
+
+git show <SHA-1>
+    - show this particular commit of <SHA-1>
+    - <SHA-1> needs to be 4 or more characters
