@@ -17,4 +17,19 @@ What to ignore:
 - operating system generated files
 - user-uploaded assets (images, PDF, videos)
 
+Globally Ignore Files:
+- Ignore files in all repositories
+- Settings are not tracked in repository
+- User specific instead of repository specific
+- git config --global core.excludesfiles ~/.gitignore_global
 
+Ignore Tracked Files:
+- how to stop tracking staged files?
+    git rm --cached example.txt
+
+Track Empty Directories:
+- Git is designed to be a file tracking system
+- Tracks files, not directories
+- Tracks the directories it takes to get to files
+- Ignores directories with NO files
+- Solution: add a 'dot' file such as .gitkeep
