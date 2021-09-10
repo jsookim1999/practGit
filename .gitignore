@@ -1,3 +1,5 @@
+# List of git ignore example
+
 .DS_Store
 *.zip
 *.gz
